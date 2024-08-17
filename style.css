@@ -1,0 +1,43 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(2, 0, 1);
+  background-image: url(./pink\ balls.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  width: 70vw;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  border: 6px solid rgb(219, 6, 102);
+  border-radius: 30px;
+  margin-top: 80px;
+  text-align: center;
+  animation: moving  2s ease-in 1s infinite alternate-reverse;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  font-style: oblique;
+}
+@keyframes moving {
+  from {
+    background-color: rgb(13, 1, 1);
+    transform: translateX(0px);
+    color: white;
+    
+  }
+
+  to {
+    background-color: white;
+    transform: translateX(30vw);
+    color: black;
+   
+  }
+}
+h2 {
+  padding-top: 15px;
+}
